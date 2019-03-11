@@ -2,7 +2,7 @@ require_relative '../application.rb'
 require 'rack'
 require 'rack/test'
 
-def app() 
+def app()
   Application.new
 end
 
